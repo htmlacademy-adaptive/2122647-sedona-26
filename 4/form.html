@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Academy: Седона</title>
+  <base href="https://htmlacademy-adaptive.github.io/2122647-sedona-26/4/">
+</head>
+<body class="page-body">
+  <header class="main-header">
+    <a class="main-header__logo">
+      <img
+      src="../source/img/logotype-mobile.svg"
+      width="102"
+      height="84"
+      alt="Логотип Седона.">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item site-list__item--active">
+            <a>
+              Главная
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a>
+              Фото и видео
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a>
+              Форма отзыва
+            </a>
+          </li>
+          <li class="site-list__item ">
+            <a>
+              HTML Academy
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="main-form">
+    <section class="form__intro">
+      <h1 class="visually-hidden">Городок Седона</h1>
+      <section class="form__intro">
+        <img src="../source/img/catalog-sedona.svg"
+        width="229"
+        height="39"
+        alt="Седона.">
+        <img src="../source/img/vector-line-intro-top.svg"
+        width="1200"
+        height="57"
+        alt="Вэлком вектор.">
+      </section>
+      <section class="form__review">
+        <h2 class="review-intro__title">Оставьте свой отзыв</h2>
+        <span class="review-intro__description">
+          Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях
+        </span>
+      </section>
+      <img src="../source/img/vector-line.svg"
+          width="320"
+          height="1"
+          alt="Разделитель карточек.">
+      <h2 class="form__title">Представьтесь:</h2>
+      <div class="form__wrapper">
+        <form class="naming-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label class="form__label" for="form__name">
+            Имя*:
+          </label>
+            <input class="field" type="text" id="form__name" name="form__name" placeholder="Пётр">
+        </form>
+        <form class="naming-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label class="form__label" for="form__name">
+            Фамилия*:
+          </label>
+            <input class="field" type="text" id="form__name" name="form__name" placeholder="Пустота">
+        </form>
+        <form class="naming-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label class="form__label" for="form__name">
+            Отчество:
+          </label>
+            <input class="field" type="text" id="form__name" name="form__name" placeholder="Викторович">
+        </form>
+      </div>
+      <img src="../source/img/vector-line.svg"
+      width="320"
+      height="1"
+      alt="Разделитель карточек.">
+      <div class="form__contact">
+        <span class="form__contact--description">Контактная информация:</span>
+      </div>
+      <div class="form__wrapper">
+        <form class="contact-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label class="form-label" for="form__phone">
+            Контактный телефон*:
+          </label>
+          <input class="field" type="text" id="form__phone" name="form__phone" placeholder="Введите телефон">
+          <button class="button form__button--phone" type="submit">
+            <span class="visually-hidden">Отправить</span>
+          </button>
+        </form>
+        <form class="contact-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label class="form-label" for="form__email">
+            Электронная почта*:
+          </label>
+          <input class="field" type="email" id="form__email" name="form__email" placeholder="Введите e-mail">
+          <button class="button form__button--email" type="submit">
+            <span class="visually-hidden">Отправить</span>
+          </button>
+        </form>
+      </div>
+      <img src="../source/img/vector-line.svg"
+      width="320"
+      height="1"
+      alt="Разделитель карточек.">
+      <div class="form__contact">
+        <span class="form__grade--description">Ваше общее впечатление:</span>
+      </div>
+      <div class="form__wrapper">
+        <ul class="form__radio-list">
+          <li class="form__radio-item">
+            <label class="radio">
+              <input class="control-radio" type="radio" name="grade" value="plus" checked>
+          Скорее положительное
+            </label>
+          </li>
+          <li class="form__radio-item">
+            <label class="radio">
+              <input class="control-radio" type="radio" name="grade" value="minus">
+          Скорее отрицательное
+            </label>
+          </li>
+          <li class="form__radio-item">
+            <label class="radio">
+              <input class="control-radio" type="radio" name="grade" value="no-answer">
+          Затрудняюсь ответить
+            </label>
+          </li>
+        </ul>
+      </div>
+      <img src="../source/img/vector-line.svg"
+      width="320"
+      height="1"
+      alt="Разделитель карточек.">
+      <div class="form__contact">
+        <span class="form__grade--description">Посещенные достопримечательности:</span>
+      </div>
+      <div class="forwm__wrapper">
+        <ul class="form__checkbox-list">
+          <li class="form__checkbox-item">
+            <label class="checkbox">
+              <input class="control-checkbox" type="checkbox" name="grade" checked>
+          Мост Дьявола
+            </label>
+          </li>
+          <li class="form__checkbox-item">
+            <label class="checkbox">
+              <input class="control-checkbox" type="checkbox" name="grade" checked>
+          Гора-Колокол
+            </label>
+          </li>
+          <li class="form__checkbox-item">
+            <label class="checkbox">
+              <input class="control-checkbox" type="checkbox" name="grade" checked>
+          Слайд-парк
+            </label>
+          </li>
+          <li class="form__checkbox-item">
+            <label class="checkbox">
+              <input class="control-checkbox" type="checkbox" name="grade">
+          Красные скалы
+            </label>
+          </li>
+        </ul>
+      </div>
+      <img src="../source/img/vector-line.svg"
+      width="320"
+      height="1"
+      alt="Разделитель карточек.">
+      <div class="form__contact">
+        <span class="form__grade--description">Опишите свои эмоции:</span>
+      </div>
+      <div class="form__emotion">
+        <form action="https://echo.htmlacademy.ru/" method="post">
+          <label class="visually-hidden" for="comment-field">
+            <textarea class="field__comment" name="comment" id="comment-field">
+              Опишите подробно все свои восторги
+            </textarea>
+          </label>
+        </form>
+      </div>
+      <div class="form__button">
+        <button class="button__review" type="submit">
+          Отправить отзыв
+        </button>
+        <span class="form__all-input">* - обязательные поля</span>
+      </div>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <b class="main-footer__title">
+      #Visitsedona
+    </b>
+    <ul class="social__list">
+      <li class="social__item">
+        <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">Мы в Телеграме</a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">Мы в Ютубе</a>
+      </li>
+    </ul>
+    <b class="copyright__text">Разработано</b>
+    <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+  </footer>
+</body>
+</html>
