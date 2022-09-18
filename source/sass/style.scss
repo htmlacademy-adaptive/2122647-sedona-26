@@ -1,1 +1,100 @@
-// Начните писать стили здесь
+/*Главная страница*/
+
+@import "blocks/page.scss";
+
+/*Заголовок*/
+
+@import "blocks/main-header.scss";
+
+/*Навигация*/
+
+@import "blocks/main-nav.scss";
+@import "blocks/site-list.scss";
+
+/*Интро*/
+
+@import "blocks/index-intro.scss";
+
+/*Преимущества*/
+
+@import "blocks/index-advantages.scss";
+
+/*Кнопка*/
+
+@import "blocks/button.scss";
+
+/*Подвал*/
+
+@import "blocks/main-footer.scss";
+
+/*Социальные сети*/
+
+@import "blocks/footer-social.scss";
+
+/*Каталог интро*/
+
+@import "blocks/catalog__intro.scss";
+
+/*Портфолио Седоны в каталоге*/
+
+@import "blocks/catalog__list.scss";
+@import "blocks/item__description.scss";
+
+/*Форм интро*/
+
+@import "blocks/form__intro.scss";
+
+/*Формы*/
+
+@import "blocks/form.scss";
+@import "blocks/radio.scss";
+@import "blocks/checkbox.scss";
+@import "blocks/field.scss";
+
+/*Цвета*/
+
+$white: #ffffff;
+$black: #000000;
+$lightblue: #81b3d2;
+$lightgrey: #eeeeee;
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/ptsans.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/ptsans.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "PT Sans Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/ptsansbold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PT Sans Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/ptsansbold.woff2") format("woff2");
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

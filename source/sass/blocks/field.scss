@@ -1,0 +1,26 @@
+.field {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #b3b3b3;
+}
+
+.field__name {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.field__name::placeholder {
+  color: $black;
+}
+
+.field__comment {
+  font-family: "PT sans", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  width: 279px;
+  height: 150px;
+  color: #b3b3b3;
+}
