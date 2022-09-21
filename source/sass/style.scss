@@ -1,3 +1,6 @@
+@import "blocks/variable.scss";
+@import "blocks/fonts.scss";
+
 /*Главная страница*/
 
 @import "blocks/page.scss";
@@ -9,7 +12,6 @@
 /*Навигация*/
 
 @import "blocks/main-nav.scss";
-@import "blocks/site-list.scss";
 
 /*Интро*/
 
@@ -50,41 +52,6 @@
 @import "blocks/radio.scss";
 @import "blocks/checkbox.scss";
 @import "blocks/field.scss";
-
-/*Цвета*/
-
-$white: #ffffff;
-$black: #000000;
-$lightblue: #81b3d2;
-$lightgrey: #eeeeee;
-
-@font-face {
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: url("fonts/ptsans.woff") format("woff");
-}
-
-@font-face {
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: url("fonts/ptsans.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "PT Sans Bold";
-  font-style: normal;
-  font-weight: 700;
-  src: url("fonts/ptsansbold.woff") format("woff");
-}
-
-@font-face {
-  font-family: "PT Sans Bold";
-  font-style: normal;
-  font-weight: 700;
-  src: url("fonts/ptsansbold.woff2") format("woff2");
-}
 
 .visually-hidden {
   position: absolute;
