@@ -1,3 +1,28 @@
 .index-intro__logo {
   background-image: url("../img/index-mobile-background-intro.jpg");
 }
+
+.index-intro__page-main--logo {
+  padding: 90px 19px 28px;
+}
+
+@media (min-width: $tablet-width) {
+  .index-intro__logo {
+    background-image: url("../img/index-tablet-desktop-background-intro.jpg");
+  }
+
+  .index-intro__page-main--logo {
+    padding: 77px 154px 34px;
+  }
+
+  .welcome-logo {
+    width: 461px;
+    height: 350px;
+  }
+
+  .vector-line {
+    width: 768px;
+    height: 67px;
+    position: absolute;
+  }
+}

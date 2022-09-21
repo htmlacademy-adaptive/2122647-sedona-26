@@ -5,9 +5,48 @@
 
 .main-nav__list {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: $lightblue;
+  color: $white;
+
 }
 
 .main-nav__list a {
   text-decoration: none;
   color: $white;
+}
+
+@media (min-width: $tablet-width) {
+    .main-nav__list {
+    padding: 0;
+    margin: 0;
+    width: 768px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: $white;
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  .main-nav__item {
+    color: $black;
+    width: 153px;
+    text-align: center;
+  }
+
+  .main-nav__item:nth-child(2) {
+    padding-right: 153px;
+  }
+
+  .main-nav__list a {
+    color: $black;
+  }
+
+  .main-nav__toggle {
+    display: none;
+  }
 }
