@@ -1,6 +1,6 @@
 .index-advantages__list {
   margin: 0;
-  padding: 0%;
+  padding: 0;
   list-style-type: none;
 }
 
@@ -9,7 +9,40 @@
   color: $white;
 }
 
-.index-advantages__item--number-grey {
+.index-advantages__item--number-second {
   background-color: $lightgrey;
   color: $black;
+}
+
+@media (min-width: $tablet-width) {
+  .index-advantages {
+    box-sizing: border-box;
+  }
+
+  .index-advantages__list {
+    display: grid;
+    grid-auto-flow: row dense;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0;
+    grid-template-areas:
+      ". index-advantages__item index-advantages__item--image index-advantages__item index-advantages__item--image"
+      ". . ."
+      "index-advantages__item--image-second index-advantages__item--image-second ."
+      ". . .";
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .index-advantages__item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+  }
 }
