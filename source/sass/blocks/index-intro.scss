@@ -9,10 +9,13 @@
 @media (min-width: $tablet-width) {
   .index-intro__logo {
     background-image: url("../img/index-tablet-desktop-background-intro.jpg");
+    background-color: $white;
+    height: 518px;
+    background-repeat: no-repeat;
   }
 
   .index-intro__page-main--logo {
-    padding: 77px 154px 34px;
+    padding: 77px 154px 29px;
   }
 
   .welcome-logo {
@@ -22,7 +25,16 @@
 
   .vector-line {
     width: 768px;
-    height: 67px;
+    height: 57px;
     position: absolute;
+  }
+
+  .index-intro__wrapper {
+    padding-top: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }
