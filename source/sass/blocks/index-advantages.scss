@@ -27,7 +27,7 @@
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 0;
     grid-template-areas:
-      ". index-advantages__item index-advantages__item--image index-advantages__item index-advantages__item--image"
+      ". index-advantages__item--image index-advantages__item--image"
       ". . ."
       "index-advantages__item--image-second index-advantages__item--image-second ."
       ". . .";
@@ -43,6 +43,5 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-
   }
 }
